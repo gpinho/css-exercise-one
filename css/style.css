@@ -1,36 +1,59 @@
-body
+/*select body, determine font-size*/
+body {
   font-size: 14px;
 }
 
+/*select nav, determine background-color, height, margin-top, position, width*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/*select section, determine margin, width*/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/*select h1, determine font-family, font-size*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
+/*select h3, determine font-size*/
 h3 {
   font-size: 1.3em;
 }
 
+/*select example and h3, determine padding, text-align*/
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/*select element, determine background-color, height, margin, width*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/*select element last-child(1), determine background-color*/
+.element:nth-last-child(1) {
+  background-color: red;
+}
+
+/*select element last-child(2), determine background-color*/
+.element:nth-last-child(2) {
+  background-color: red;
+}
+
+/*select element last-child(3), determine background-color*/
+.element:nth-last-child(3) {
+  background-color: red;
+}
